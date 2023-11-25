@@ -39,7 +39,7 @@ const About = () => {
                 By combining creativity and empathy, I aim to bring people closer to technology in a meaningful way.
                 </p>
                 <p>
-                    Here a few technologies I've been working with recently:
+                    Here a few technologies I&apos;ve been working with recently:
                 </p>
                 <ul className="max-w-[450px] text-sm font-accentFont font-light grid grid-cols-2 gap-2 mt-6">
                     <li className="flex items-center gap-2">

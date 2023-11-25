@@ -7,11 +7,11 @@ const Contact = () => {
     className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
     >
         <p className='font-accentFont text-lg text-textGreen font-light flex items-center'>
-            04. What's Next?
+            04. What&apos;s Next?
         </p>
         <h2 className='font-titleFont text-textTitle text-5xl font-semibold'>Get In Touch</h2>
         <p className='max-w-[600px] text-center text-textDark'>
-            Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            Although I&apos;m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
        <a href="mailto:tomferrari.dev@gmail.com">
         <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
