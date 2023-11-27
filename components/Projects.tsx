@@ -10,7 +10,7 @@ import { RxOpenInNewWindow } from 'react-icons/rx'
 const Projects = () => {
   return (
     <section id="work" className='max-w-container mx-auto lgl:px-20 py-24'>
-        <SectionTitle title="Some Things I’ve Built" titleNo='03' />
+        <SectionTitle title="Some Things I&apos;ve Built" titleNo='03' />
         <div className='w-full flex flex-col items-center justify-between gap-28 mt-10'>
             {/* project one */}
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
@@ -24,6 +24,7 @@ const Projects = () => {
                     src={projectOne} 
                     alt="project one"
                     />
+                    <div className="hidden lgl:inline-block absolute w-full h-full bg-textGreen/30 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
                 </div>
                 </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10'>
@@ -48,13 +49,6 @@ const Projects = () => {
                         <TbBrandGithub />
                     </a>
 
-                    <a 
-                    className='hover:text-textGreen duration-300'
-                    href="#"
-                    target='_blank'
-                    >
-                        <AiOutlineYoutube />
-                    </a>
 
                     <a 
                     className='hover:text-textGreen duration-300'
@@ -72,13 +66,14 @@ const Projects = () => {
             <div className='flex flex-col xl:flex-row-reverse gap-6'>
                 <a 
                 className='w-full xl:w-1/2 h-auto relative group'
-                href="#" target='_blank'
+                href="https://tomferr23.github.io/Counter-App/" target='_blank'
                 >
                 <div>
                     <Image className="w-full h-full object-contain" 
                     src={projectTwo} 
                     alt="project two"
                     />
+                    <div className="hidden lgl:inline-block absolute w-full h-full bg-textGreen/30 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
                 </div>
                 </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10'>
@@ -97,7 +92,7 @@ const Projects = () => {
                 <div className='text-2xl flex gap-4'>
                     <a 
                     className='hover:text-textGreen duration-300'
-                    href="#"
+                    href="https://github.com/TomFerr23/Counter-App"
                     target='_blank'
                     >
                         <TbBrandGithub />
@@ -105,15 +100,7 @@ const Projects = () => {
 
                     <a 
                     className='hover:text-textGreen duration-300'
-                    href="#"
-                    target='_blank'
-                    >
-                        <AiOutlineYoutube />
-                    </a>
-
-                    <a 
-                    className='hover:text-textGreen duration-300'
-                    href="#"
+                    href="https://tomferr23.github.io/Counter-App/"
                     target='_blank'
                     >
                         <RxOpenInNewWindow  />
@@ -127,13 +114,14 @@ const Projects = () => {
             <div className='flex flex-col xl:flex-row gap-6'>
                 <a 
                 className='w-full xl:w-1/2 h-auto relative group'
-                href="#" target='_blank'
+                href="https://tferrari.eu/" target='_blank'
                 >
                 <div>
                     <Image className="w-full h-full object-contain" 
                     src={projectThree} 
                     alt="project three"
                     />
+                    <div className="hidden lgl:inline-block absolute w-full h-full bg-textGreen/30 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
                 </div>
                 </a>
             <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10'>
@@ -151,25 +139,10 @@ const Projects = () => {
                     <li>Php</li>
                 </ul>
                 <div className='text-2xl flex gap-4'>
-                    <a 
-                    className='hover:text-textGreen duration-300'
-                    href="#"
-                    target='_blank'
-                    >
-                        <TbBrandGithub />
-                    </a>
 
                     <a 
                     className='hover:text-textGreen duration-300'
-                    href="#"
-                    target='_blank'
-                    >
-                        <AiOutlineYoutube />
-                    </a>
-
-                    <a 
-                    className='hover:text-textGreen duration-300'
-                    href="#"
+                    href="https://tferrari.eu/"
                     target='_blank'
                     >
                         <RxOpenInNewWindow  />

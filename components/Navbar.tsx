@@ -48,7 +48,7 @@ const Navbar = () => {
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
             <ul className='flex text-[13px] gap-7'>
-                <Link href="#about" onClick={handleScroll} className="flex items-center gap-1 font-accentFont font-light text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                <Link href="#about" onClick={handleScroll} className="flex items-center gap-1 font-accentFont  text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                   <motion.li
                   initial={{y:-10, opacity:0}}
                   animate={{y:0, opacity:1}}
@@ -58,7 +58,7 @@ const Navbar = () => {
                     </motion.li>
                 </Link>
 
-                <Link href="#experience" onClick={handleScroll} className="flex items-center gap-1 font-light font-accentFont text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                <Link href="#experience" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                   <motion.li
                   initial={{y:-10, opacity:0}}
                   animate={{y:0, opacity:1}}
@@ -69,7 +69,7 @@ const Navbar = () => {
 
                   </Link>
 
-                  <Link href="#work" onClick={handleScroll} className="flex items-center gap-1 font-light font-accentFont text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                  <Link href="#work" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                   <motion.li
                   initial={{y:-10, opacity:0}}
                   animate={{y:0, opacity:1}}
@@ -80,7 +80,7 @@ const Navbar = () => {
 
                   </Link>
 
-                  <Link href="#contact" onClick={handleScroll} className="flex items-center gap-1 font-light font-accentFont text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                  <Link href="#contact" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                   <motion.li
                   initial={{y:-10, opacity:0}}
                   animate={{y:0, opacity:1}}
@@ -123,7 +123,7 @@ const Navbar = () => {
 
                              <ul className='flex flex-col text-[13px] gap-7'>
 
-                                <Link href="#about" onClick={handleScroll} className="flex items-center gap-1 font-accentFont font-light text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                                <Link href="#about" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                                 <motion.li
                                 initial={{y:-10, opacity:0}}
                                 animate={{y:0, opacity:1}}
@@ -133,7 +133,7 @@ const Navbar = () => {
                                 </motion.li>
                                </Link>
 
-                                <Link href="#experience" onClick={handleScroll} className="flex items-center gap-1 font-light font-accentFont text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                                <Link href="#experience" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                                   <motion.li
                                   initial={{y:-10, opacity:0}}
                                   animate={{y:0, opacity:1}}
@@ -144,7 +144,7 @@ const Navbar = () => {
 
                                   </Link>
 
-                                  <Link href="#work" onClick={handleScroll} className="flex items-center gap-1 font-light font-accentFont text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                                  <Link href="#work" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                                   <motion.li
                                   initial={{y:-10, opacity:0}}
                                   animate={{y:0, opacity:1}}
@@ -155,7 +155,7 @@ const Navbar = () => {
 
                                   </Link>
 
-                                  <Link href="#contact" onClick={handleScroll} className="flex items-center gap-1 font-light font-accentFont text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                                  <Link href="#contact" onClick={handleScroll} className="flex items-center gap-1 font-accentFont text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link">
                                   <motion.li
                                   initial={{y:-10, opacity:0}}
                                   animate={{y:0, opacity:1}}

@@ -14,7 +14,7 @@ const Contact = () => {
             Although I&apos;m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
        <a href="mailto:tomferrari.dev@gmail.com">
-        <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
+        <button className='w-40 h-14 border border-textGreen mt-6 font-accentFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
             Say Hello
             </button>
         </a>

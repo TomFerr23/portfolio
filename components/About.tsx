@@ -24,17 +24,16 @@ const About = () => {
     >
         <SectionTitle title="About Me" titleNo="01"/>
         <div className="flex flex-col lgl:flex-row gap-16">
-            <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+            <div className="w-full lgl:w-1/2 text-base text-textDark font-medium flex flex-col gap-4">
                 <p>
-                Hello! My name is Tommaso and I enjoy creating things that live on the internet.
-                  My main focus these days is building accessible, inclusive products and digital experiences in order to develop my coding skills.
+                Hello! My name is Tom and I enjoy creating things that live on the internet.
+                  My main focus is building accessible, inclusive products and digital experiences.
                 </p>
                 <p>
-                I have a solid foundation in several coding languages, such as: HTML ,CSS and Javascript; As well as Preprocessors tools like SASS 
-                and frameworks like Bootstrap. My focus is <span className="text-textGreen">React</span>, <span className="text-textGreen">Next.js</span>, and <span className="text-textGreen">Three.js</span>. 
+                I have a solid foundation in several coding languages. My main focus is <span className="text-textGreen">React</span>, <span className="text-textGreen">Next.js</span>, and <span className="text-textGreen">Three.js</span>. 
                 </p>
                 <p>
-                At present, I have the pleasure of creating digital experiences as a UI/UX designer && Web Developer at kubico.com. 
+                At present, I have the pleasure of creating digital experiences as a Web Developer <a href="https://kubico.com/"><span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">@kubico.com<span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span></span></a>. 
                 Guided by a passion for aesthetics and functionality, I strive to craft designs that are both visually stunning and user-friendly. 
                 By combining creativity and empathy, I aim to bring people closer to technology in a meaningful way.
                 </p>

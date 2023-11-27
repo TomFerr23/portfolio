@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { TiArrowForward } from 'react-icons/ti';
 import { BiRightArrow } from "react-icons/bi";
 
-const Google = () => {
+const Apple = () => {
   return (
     <motion.div
     initial={{opacity:0}}
@@ -11,26 +11,26 @@ const Google = () => {
     className='w-full'
     >
         <h3 className='flex gap-1 font-medium text-xl text-textTitle font-titleFont'>
-            Engineer <span className='text-textGreen tracking-wide'>@ReactBD</span></h3>
-        <p className='text-sm mt-1 font-medium text-textDark font-accentFont'>Jan 2023 - Present</p>
+            MEP Assistant <span className='text-textGreen tracking-wide'>@EuropeanParliament</span></h3>
+        <p className='text-sm mt-1 font-medium text-textDark font-accentFont'>Oct 2018 - Feb 2019</p>
         <ul className='mt-6 flex flex-col gap-3'>
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen text-xs mt-1'><BiRightArrow /></span>
-            Write modern, performant, maintainable code for a diverse array of client and internal projects
+                Writing briefings in order to facilitate meetings for the MEP
             </li>
 
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen text-xs mt-1'><BiRightArrow /></span>
-            Worked with a variaty of different languages, platforms, framekworks and content management systems such as Javascript, TypeScript, React and Wordpress
+                Attending meetings (including plenaries sessions/private) on behalf of the MEP, taking notes and reporting back to the MEP
             </li>
 
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen text-xs mt-1'><BiRightArrow /></span>
-            Comunicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+                Managing the agenda of the MEP
             </li>
         </ul>
     </motion.div>
   )
 }
 
-export default Google
+export default Apple

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { TiArrowForward } from 'react-icons/ti';
 import { BiRightArrow } from "react-icons/bi";
 
-const Apple = () => {
+const Ferrari = () => {
   return (
     <motion.div
     initial={{opacity:0}}
@@ -11,26 +11,27 @@ const Apple = () => {
     className='w-full'
     >
         <h3 className='flex gap-1 font-medium text-xl text-textTitle font-titleFont'>
-            Engineer <span className='text-textGreen tracking-wide'>@ReactBD</span></h3>
-        <p className='text-sm mt-1 font-medium text-textDark font-accentFont'>Jan 2023 - Present</p>
+            Manager <span className='text-textGreen tracking-wide'>@FerrariTommaso&amp;Co.SNC</span></h3>
+        <p className='text-sm mt-1 font-medium text-textDark font-accentFont'>Aug 2015 - Jan 2022</p>
         <ul className='mt-6 flex flex-col gap-3'>
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen text-xs mt-1'><BiRightArrow /></span>
-            Write modern, performant, maintainable code for a diverse array of client and internal projects
+                Improved long-term prospecting, strategy development
             </li>
 
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen text-xs mt-1'><BiRightArrow /></span>
-            Worked with a variaty of different languages, platforms, framekworks and content management systems such as Javascript, TypeScript, React and Wordpress
+                Identified market product demands and customer trends to bring in new customers and retain existing ones.
             </li>
 
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen text-xs mt-1'><BiRightArrow /></span>
-            Comunicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+                Increased
+revenue and supported sales activities
             </li>
         </ul>
     </motion.div>
   )
 }
 
-export default Apple
+export default Ferrari

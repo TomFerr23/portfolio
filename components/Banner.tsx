@@ -1,4 +1,12 @@
 import { motion } from 'framer-motion'
+import { useRef } from 'react'
+
+const scrollToProjects = () => {
+    const projectsSection = document.getElementById('work');
+    if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
 
 const Banner = () => {
   return (
@@ -7,7 +15,7 @@ const Banner = () => {
         initial={{y:10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:0.6}}
-        className="text-lg font-accentFont font-light tracking-wide text-textGreen"
+        className="font-accentFont text-sm font-light tracking-wide text-textGreen"
         >
             Hi, my name is
             </motion.h3>
@@ -40,6 +48,7 @@ const Banner = () => {
                 </a>
             </motion.p>
             <motion.button 
+            onClick={scrollToProjects}
             initial={{y:10, opacity:0}}
             animate={{y:0, opacity:1}}
             transition={{duration:0.5, delay:0.9}}

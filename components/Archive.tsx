@@ -11,39 +11,39 @@ const Archive = () => {
             <p className='text-sm font-titleFont text-textGreen'>view the archive</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
-            <ArchiveCard title="Educare English Learning Academy" 
+            <ArchiveCard title="Beauty Corner" 
+            des="Beautycorner.nl is a beauty products blog. The website is built with a custom wordpress theme. Accurately designed with Figma and Photoshop."
+            listItem={['Figma', 'Photoshop', 'Midjourney']}
+            link="https://beautycorner.nl/"
+             />
+
+<ArchiveCard title="Kubico" 
+            des="Kubico is a Dutch startup that provides a big variety of digital services. Accurately designed with Figma and Photoshop."
+            listItem={['Figma', 'Photoshop', 'Midjourney']}
+            link="https://kubico.com/"
+             />
+
+<ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
+            listItem={['xxx', 'xxx', 'xxx']}
             link="#"
              />
 
-<ArchiveCard title="Educare English Learning Academy" 
+<ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
+            listItem={['xxx', 'xxx', 'xxx']}
             link="#"
              />
 
-<ArchiveCard title="Educare English Learning Academy" 
+<ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
+            listItem={['xxx', 'xxx', 'xxx']}
             link="#"
              />
 
-<ArchiveCard title="Educare English Learning Academy" 
+<ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#"
-             />
-
-<ArchiveCard title="Educare English Learning Academy" 
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#"
-             />
-
-<ArchiveCard title="Educare English Learning Academy" 
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
+            listItem={['xxx', 'xxx', 'xxx']}
             link="#"
              />
 
@@ -55,10 +55,11 @@ const Archive = () => {
                         whileInView={{opacity:1}}
                         transition={{delay:0.1}}
                         >
-                            <ArchiveCard title="Educare English Learning Academy" 
+                            <ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#" />
+            listItem={['xxx', 'xxx', 'xxx']}
+            link="#"
+             />
                         </motion.div>
 
                         <motion.div
@@ -66,10 +67,11 @@ const Archive = () => {
                         whileInView={{opacity:1}}
                         transition={{delay:0.2}}
                         >
-                            <ArchiveCard title="Educare English Learning Academy" 
+                            <ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#" />
+            listItem={['xxx', 'xxx', 'xxx']}
+            link="#"
+             />
                         </motion.div>
 
                         <motion.div
@@ -77,10 +79,11 @@ const Archive = () => {
                         whileInView={{opacity:1}}
                         transition={{delay:0.3}}
                         >
-                            <ArchiveCard title="Educare English Learning Academy" 
+                            <ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#" />
+            listItem={['xxx', 'xxx', 'xxx']}
+            link="#"
+             />
                         </motion.div>
 
                         <motion.div
@@ -88,10 +91,11 @@ const Archive = () => {
                         whileInView={{opacity:1}}
                         transition={{delay:0.4}}
                         >
-                            <ArchiveCard title="Educare English Learning Academy" 
+                            <ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#" />
+            listItem={['xxx', 'xxx', 'xxx']}
+            link="#"
+             />
                         </motion.div>
 
                         <motion.div
@@ -99,10 +103,11 @@ const Archive = () => {
                         whileInView={{opacity:1}}
                         transition={{delay:0.5}}
                         >
-                            <ArchiveCard title="Educare English Learning Academy" 
+                            <ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#" />
+            listItem={['xxx', 'xxx', 'xxx']}
+            link="#"
+             />
                         </motion.div>
 
                         <motion.div
@@ -110,10 +115,11 @@ const Archive = () => {
                         whileInView={{opacity:1}}
                         transition={{delay:0.6}}
                         >
-                            <ArchiveCard title="Educare English Learning Academy" 
+                            <ArchiveCard title="Coming Soon" 
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis."
-            listItem={['Reactjs', 'Tailwindcss', 'getform.io']}
-            link="#" />
+            listItem={['xxx', 'xxx', 'xxx']}
+            link="#"
+             />
                         </motion.div>
                     
 
