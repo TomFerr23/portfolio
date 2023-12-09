@@ -17,7 +17,7 @@ const Projects = () => {
             <div className='flex flex-col xl:flex-row gap-6'>
                 <a 
                 className='w-full xl:w-1/2 h-auto relative group'
-                href="#" target='_blank'
+                href="https://tferrari.eu/" target='_blank'
                 >
                 <div>
                     <Image className="w-full h-full object-contain" 
