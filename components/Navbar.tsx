@@ -41,7 +41,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='w-full shadow-navbarShadow h-20 lg:h-[8vh] sticky top-0 z-50 bg-bodyColor px-4'>
+    <div className='w-full shadow-navbarShadow h-24 lg:h-[10vh] sticky top-0 z-50 bg-bodyColor px-4'>
       <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}}>
           <Image className='w-10' src={logo} alt="Logo" /> 
